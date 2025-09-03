@@ -14,4 +14,4 @@ It showcases my skills, projects, and experience in a responsive and user-friend
 - JavaScript  
 
 ## Demo 👇
-[Demo]()
+[Demo](https://baisoyaaditya.github.io/Interactive-Resume/)
