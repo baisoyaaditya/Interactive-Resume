@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aditya Kumar - Interactive Resume</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">Aditya Kumar</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="actions">
+                <button id="theme-toggle">🌙</button>
+                <a href="Aditya-Kumar-Resume.pdf" download class="btn">📄 Download Resume</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="about" class="hero fade-in">
+        <h1>Hi, I'm <span class="highlight">Aditya Kumar</span></h1>
+        <p><strong>B.Tech Student | Full Stack MERN Developer</strong></p>
+        <p>Email: <a href="mailto:baisoyaaditya007@gmail.com">baisoyaaditya007@gmail.com</a> |
+            Phone: +91 9599503423 | Greater Noida, India</p>
+        <p>
+            <a class="btn" href="https://linkedin.com/in/aditya-baisoya-632560257" target="_blank">LinkedIn</a>
+            <a class="btn" href="https://github.com/baisoyaaditya" target="_blank">GitHub</a>
+            <a class="btn" href="https://leetcode.com/baisoyaaditya" target="_blank">LeetCode</a>
+        </p>
+    </section>
+
+    <!-- Professional Summary -->
+    <section id="summary" class="fade-in">
+        <h2>👨‍💻 Professional Summary</h2>
+        <div class="card">
+            <p>
+                Enthusiastic <strong>B.Tech Computer Science student</strong> with hands-on experience in
+                <strong>Full Stack Web Development (MERN)</strong> and <strong>Artificial Intelligence</strong>.
+                Skilled in developing scalable applications, integrating APIs, and solving algorithmic challenges.
+            </p>
+            <p>
+                Built multiple real-world projects including an Emotion Detection System,
+                AI-powered Chatbot, and a 3D Browser Game. Strong knowledge of
+                <strong>Data Structures, Algorithms, DBMS, OS, and Networking</strong>.
+            </p>
+            <p>
+                Passionate about <strong>software engineering, problem solving, and continuous learning.</strong>
+                Seeking opportunities to contribute to innovative projects and grow as a developer.
+            </p>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="fade-in">
+        <h2>💼 Work Experience</h2>
+        <div class="timeline">
+            <div class="card">
+                <h3>Web Development Intern - Unified Mentor</h3>
+                <p><em>Aug 2025 – Present</em></p>
+                <ul>
+                    <li>Collaborated with senior developers to design, develop, and deploy responsive web applications.
+                    </li>
+                    <li>Worked with version control systems like Git & GitHub for efficient collaboration and
+                        deployment.</li>
+                    <li>Contributed to real time projects under guidance, improving problem solving and development
+                        skills.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Web Development Intern - Infotact Solutions</h3>
+                <p><em>Aug 2025 – Present</em></p>
+                <ul>
+                    <li>Collaborated with the web development team to design, develop, test, and deploy websites.</li>
+                    <li>Participated in code reviews to ensure code quality, performance, and adherence to best
+                        practices.</li>
+                    <li>Learned and implemented new frameworks and technologies to enhance project efficiency.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="fade-in">
+        <h2>🎓 Education</h2>
+        <div class="card">
+            <p><strong>B.Tech</strong>, I.T.S. Engineering College, Greater Noida (2022 – Present)</p>
+            <p><strong>Intermediate</strong>, Blue Diamond Public School (2021 – 2022)</p>
+            <p><strong>Matriculation</strong>, Blue Diamond Public School (2019 – 2020)</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="fade-in">
+        <h2>⚡ Skills</h2>
+        <div class="card">
+            <h3>Programming Languages</h3>
+            <p>C, Python, Java, JavaScript</p>
+
+            <h3>Web Development (MERN)</h3>
+            <p>HTML5, CSS3, Tailwind, Bootstrap, React.js, Node.js, Express.js, MongoDB, MySQL</p>
+
+            <h3>Tools & Platforms</h3>
+            <p>Git, GitHub, NPM, VS Code, IntelliJ, Replit, Render</p>
+
+            <h3>CS Concepts</h3>
+            <p>Data Structures & Algorithms, OOP, Operating System, DBMS, Networking</p>
+
+            <h3>Soft Skills</h3>
+            <p>Communication, Teamwork, Problem Solving</p>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="fade-in">
+        <h2>🚀 Projects</h2>
+        <div class="projects-grid">
+
+            <div class="project-card" data-title="MoodLens"
+                data-description="A real-time facial emotion detection system with voice feedback." data-points='["Built using Mediapipe for face tracking and Deep Learning for emotion recognition.",
+                               "Integrated TensorFlow/Keras CNN model trained on Kaggle dataset.",
+                               "Used OpenCV for real-time video capture and preprocessing.",
+                               "Added pyttsx3 voice output to announce detected emotions."]'>
+                <h3>MoodLens</h3>
+                <p>Real-time Emotion Detection System (2025)</p>
+                <div class="tags"><span>Python</span><span>OpenCV</span><span>TensorFlow</span><span>Mediapipe</span>
+                </div>
+                <br>
+                <a href="https://github.com/baisoyaaditya/MoodLens" target="_blank" class="btn">🔗 Code</a>
+            </div>
+
+            <div class="project-card" data-title="Oracle Chatbot"
+                data-description="A browser-based voice assistant powered by Web Speech API." data-points='["Real-time speech-to-text and text-to-speech integration.",
+                               "Supports basic commands and continuous conversation.",
+                               "Built responsive UI with dark/light mode toggle.",
+                               "Designed for deployment on Render with Node.js backend."]'>
+                <h3>Oracle Chatbot</h3>
+                <p>Voice AI Assistant (2024)</p>
+                <div class="tags"><span>JavaScript</span><span>Web Speech API</span></div>
+                <br>
+                <a href="https://github.com/baisoyaaditya/Oracle-chatbot" target="_blank" class="btn">🔗 Code</a>
+            </div>
+
+            <div class="project-card" data-title="Tower Block Game"
+                data-description="A 3D stacking game built with Three.js & GSAP." data-points='["Implemented physics-based stacking and score system.",
+                               "Used GSAP animations for smooth transitions.",
+                               "Designed custom camera and lighting in Three.js.",
+                               "Optimized for performance in modern browsers."]'>
+                <h3>Tower Block Game</h3>
+                <p>3D Browser Game (2024)</p>
+                <div class="tags"><span>JavaScript</span><span>Three.js</span><span>GSAP</span></div>
+                <br>
+                <a href="https://github.com/baisoyaaditya/Tower-block-game" target="_blank" class="btn">🔗 Code</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Certificates -->
+    <section id="certificates" class="fade-in">
+        <h2>🏆 Certificates</h2>
+        <div class="certs">
+            <a class="badge" href="https://www.credly.com/badges/96b72457-d8d3-4f2b-8d22-4a4381844275/public_url"
+                target="_blank">AWS Cloud Foundations</a>
+            <a class="badge" href="https://infyspringboard.onwingspan.com/...c1bdf.pdf" target="_blank">Infosys
+                Springboard - Advanced Java</a>
+            <a class="badge" href="https://www.mygreatlearning.com/certificate/OODNICYM" target="_blank">Great Learning
+                - ML in Python</a>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="fade-in">
+        <h2>📩 Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Aditya Kumar | Made with ❤ | Interactive Resume</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+            <ul id="modal-points"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
